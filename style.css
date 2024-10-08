@@ -1,0 +1,94 @@
+/* Reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e paleta de cores */
+body {
+    font-family: 'Protest Strike', sans-serif; /* Nova fonte */
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branco */
+}
+
+/* Header estilizado */
+header {
+    background-color: #00008b; /* Cor de fundo do header em azul escuro */
+    height: 8rem; /* Altura do header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff; /* Cor do texto branco */
+    font-size: 2.5rem;
+}
+
+/* Estilo do Main */
+main {
+    padding: 2rem;
+}
+
+/* Primeira div com parágrafo e imagem */
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.primeira p {
+    max-width: 40rem; /* Limitar a largura do parágrafo */
+    font-size: 1.2rem;
+}
+
+.primeira img {
+    width: 15rem; /* Diminuir o tamanho da imagem */
+    margin-left: 2rem; /* Espaço entre texto e imagem */
+}
+
+/* Segunda div */
+.segunda {
+    background-color: #00008b; /* Cor de fundo da segunda div em azul escuro */
+    height: 25rem; /* Altura da segunda div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Espaço entre os elementos */
+    margin-bottom: 2rem; /* Espaço entre a primeira e segunda div */
+}
+
+.segunda img {
+    width: 10rem; /* Tamanho das imagens */
+    height: 10rem;
+}
+
+.segunda p {
+    max-width: 20rem; /* Limitar largura do parágrafo */
+    text-align: center;
+    color: #ffffff; /* Texto branco */
+}
+
+/* Terceira div */
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espaço entre as imagens */
+}
+
+.terceira img {
+    width: 10rem; /* Tamanho das imagens */
+    height: 10rem;
+}
+
+/* Espaçamento entre as divs */
+main .segunda {
+    margin-top: 2rem;
+}
+
+main .terceira {
+    margin-top: 2rem;
+}
